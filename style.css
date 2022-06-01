@@ -1,0 +1,56 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 850px;
+    color: white;
+    background-image: url(./space.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-size: contain; */
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    background-color:#E6E6E6 ;
+    padding-left: 60px;
+}
+
+div{
+    width: 270px;
+}
+
+h1{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.name {
+    width: 80%;
+}
+
+.message {
+    width: 80%;
+    height: 80px
+}
+
+input[type=submit] {
+    color: white;
+    background-color: black;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.button:hover {
+    background-color: green;
+}
+
